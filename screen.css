@@ -39,12 +39,13 @@ footer {
   line-height: 1.566em; /* 22px is 1 gridline | 22px / 14.048px = 1.566em */
 }
 
+img {
+  max-width: 100%;
+}
+
 /* ===== LAYOUT STYLES ===== */
 #main {
-  padding-top: 4.888em; /* line-height * 4 = 4.888em */
-  padding-left: 4.888em;
-  padding-right: 4.888em;
-  padding-bottom: 4.888em;
+  padding: 2.444em 4.888em 4.888em 4.888em; /* line-height * 4 = 4.888em */
 }
 
 .rules {
@@ -54,4 +55,16 @@ footer {
 .signup {
   border: 0.153em solid black; /* line-height / 8 */
   padding: 0.306em; /* line-height / 4 */
+}
+
+/* ===== STATE STYLES ===== */
+@media screen and (max-width: 960px) {
+  html {
+    background-color: green;
+  }
+  
+  #main {
+    padding: 2.444em;
+    font-size: 1.215em;
+  }
 }
