@@ -38,3 +38,17 @@ footer {
   font-size: 0.878em; /* 0.878em * 16px = 14.048px */
   line-height: 1.566em; /* 22px is 1 gridline | 22px / 14.048px = 1.566em */
 }
+
+/* ===== LAYOUT STYLES ===== */
+#main {
+  padding-top: 4.888em; /* line-height * 4 = 4.888em */
+}
+
+.rules {
+  padding: 0.306em; /* line-height / 4 */
+}
+
+.signup {
+  border: 0.153em solid black; /* line-height / 8 */
+  padding: 0.306em;
+}
