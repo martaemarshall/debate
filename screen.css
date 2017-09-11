@@ -42,10 +42,13 @@ footer {
 /* ===== LAYOUT STYLES ===== */
 #main {
   padding-top: 4.888em; /* line-height * 4 = 4.888em */
+  padding-left: 4.888em;
+  padding-right: 4.888em;
+  padding-bottom: 4.888em;
 }
 
 .rules {
-  padding: 0.306em; /* line-height / 4 */
+  padding-bottom: 1.222em;
 }
 
 .signup {
