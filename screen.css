@@ -25,8 +25,8 @@ header {
 }
 
 h1 {
-  font-size: 1.793em; /* 1.793em * 16px = 28.688px */
-  line-height: 1.534em; /* 44px is 2 gridlines | 44px / 28.688px = 1.534em */
+  font-size: 2.822em; /* 2.822em * 16px = 45.152px */
+  line-height: 1.462em; /* 66px is 3 gridlines | 66px / 45.152px = 0.974em */
 }
 
 h2 {
@@ -50,5 +50,5 @@ footer {
 
 .signup {
   border: 0.153em solid black; /* line-height / 8 */
-  padding: 0.306em;
+  padding: 0.306em; /* line-height / 4 */
 }
