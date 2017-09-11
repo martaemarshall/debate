@@ -14,8 +14,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?1&em&1.067&web&text
 */
 
-html{
+html {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.222em; /* 22px is 1 gridline | 22px / 18px = 1.222em */
   font-family: calibri;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.793em; /* 1.793em * 16px = 28.688px */
+  line-height: 1.534em; /* 44px is 2 gridlines | 44px / 28.688px = 1.534em */
+}
+
+h2 {
+  font-size: 1.383em; /* 1.383em * 16px = 22.128px */
+  line-height: 0.994em; /* 22px is 1 gridline | 22px / 22.128px = 0.994em
 }
