@@ -58,7 +58,7 @@ img {
 }
 
 /* ===== STATE STYLES ===== */
-@media screen and (min-width: 280px) {
+@media screen and (min-width: 280px) and (max-width: 960px) {
   h1 {
     font-size: 2.178em; /* 2.178em * 16px = 34.848px */
     line-height: 1.263em; /* 44px is 3 gridlines | 44px / 34.848px = 1.263em */
