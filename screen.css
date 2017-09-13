@@ -58,20 +58,35 @@ img {
 }
 
 /* ===== STATE STYLES ===== */
-@media screen and (min-width: 280px) and (max-width: 960px) {
+@media screen and (min-width: 654px) {
+  #main {
+    font-size: 1.383em; /* 1.383em * 16px = 22.128 */
+    line-height: 0.994em; /* 44px is 2 gridlines | 44px / 30.608px = 1.438em */
+    padding: 
+  }
+}
+
+@media screen and (min-width: 840px) {
+  #main {
+    font-size: 1.913em; /* 1.575em * 16px = 30.608px*/
+    line-height: 1.438em; /* 44px is 2 gridlines | 44px / 30.608px = 1.438em */
+    padding: 1.438em 2.876em 0 2.876em;
+  }
+}
+/*@media screen and (min-width: 418px){
   h1 {
-    font-size: 2.178em; /* 2.178em * 16px = 34.848px */
-    line-height: 1.263em; /* 44px is 3 gridlines | 44px / 34.848px = 1.263em */
+    font-size: 2.178em; /* 2.178em * 16px = 34.848px *
+    line-height: 1.263em; /* 44px is 3 gridlines | 44px / 34.848px = 1.263em *
   }
   
   h2 {
-    font-size: 1.215em; /* 1.215em * 16px = 19.44px */
-    line-height: 1.132em; /* 22px is 1 gridline | 22px / 19.44px = 0.994em */
+    font-size: 1.215em; /* 1.215em * 16px = 19.44px *
+    line-height: 1.132em; /* 22px is 1 gridline | 22px / 19.44px = 0.994em *
   }
   
   #main {
    padding: 0.611em 1.222em 1.222em 1.222em;
- }
+ }*/
  
 /*@media screen and (max-width: 960px) {
   html {
