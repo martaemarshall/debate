@@ -69,15 +69,24 @@ img {
 /* ===== STATE STYLES ===== */
 @media screen and (min-width: 280px) {
   #main {
-    font-size: 1em; /*16px*/
-    line-height: 1.375em;
+    font-size: 1em; /* 1em * 16px = 16px */
+    line-height: 1.375em; /* 22px is 1 gridline | 22px / 16px = 1.375em */
     padding-left: 1.375em;
     padding-right: 1.375em;
   }
 }
-@media screen and (min-width: 654px) {
+@media screen and (min-width: 570px) {
   #main {
-    font-size: 1.476em; /* 23.616 1.383em * 16px = 22.128 */
-    line-height: 0.932em; /* 44px is 2 gridlines | 44px / 30.608px = 1.438em */
+    font-size: 1.575em; /* 1.575em * 16px = 18.208px */
+    line-height: 1.208em; /* 22px is 1 gridline | 22px / 18.208px = 1.375 */
+    padding-left: 1.208em;
+    padding-right: 1.208em;
   }
+}
+@media screen and (min-width: 892px) {
+  #main {
+    font-size: 1.913em; /* 1.913em * 16px = 30.608px */
+    line-height: 1.438em; /* 44px is 2 gridlines | 44px / 30.608px = 1.438em */
+    padding-left: 1.438em;
+    padding-right: 1.438em;
 }
