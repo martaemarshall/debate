@@ -67,7 +67,7 @@ img {
 }
 
 /* ===== STATE STYLES ===== */
-@media screen and (min-width: 280px) {
+@media screen and (min-width: 0) {
   #main {
     font-size: 1em; /* 1em * 16px = 16px */
     line-height: 1.375em; /* 22px is 1 gridline | 22px / 16px = 1.375em */
