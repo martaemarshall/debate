@@ -66,6 +66,19 @@ img {
   padding: 0.306em; /* line-height / 4 */
 }
 
+#submit{
+  padding: 10px 20px 11px;
+  font-size: 21px;
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
+  color: #ffffff;
+  background-color: #A9A9A9;
+}
+
+#submit:hover{
+  background-color: #ff5c5c;
+}
+
 /* ===== STATE STYLES ===== */
 @media screen and (min-width: 0) {
   #main {
