@@ -43,13 +43,16 @@ img {
   max-width: 100%;
 }
 
+
 /* ===== LAYOUT STYLES ===== */
 #main {
   padding: 2.444em 4.888em 4.888em 4.888em; /* line-height * 4 = 4.888em */
 }
+
 .rules {
   padding: 1.222em;
 }
+
 .rules
  li {
   list-style-type: decimal;
@@ -61,16 +64,22 @@ img {
   padding-bottom: 1.222em;
 }
 
-.signup {
+form {
+  text-align: center;
+  padding: 1.222em;
   border: 0.153em solid black; /* line-height / 8 */
-  padding: 0.306em; /* line-height / 4 */
+  border-radius: 0.611em; /* line-height / 2 */
+}
+
+input {
+  font-size: 0.678em; /* 0.678em * 16px = 10.848px */
 }
 
 #submit{
-  padding: 10px 20px 11px;
-  font-size: 21px;
+  font-size: 1.125em;
   font-weight: bold;
-  text-shadow: 1px 1px #000000;
+  padding: 0.306em; /* line-height / 4 */
+  text-shadow: 0.076em 0.076em #000000; /* line-height / 8 */
   color: #ffffff;
   background-color: #A9A9A9;
 }
@@ -86,6 +95,10 @@ img {
     line-height: 1.375em; /* 22px is 1 gridline | 22px / 16px = 1.375em */
     padding-left: 1.375em;
     padding-right: 1.375em;
+  }
+  
+  #submit {
+    font-size: 1em;
   }
 }
 @media screen and (min-width: 570px) {
