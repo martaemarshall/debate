@@ -18,7 +18,6 @@ html {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.222em; /* 22px is 1 gridline | 22px / 18px = 1.222em */
   font-family: calibri;
-  background-color: #DCDCDC;
 }
 
 header {
@@ -74,6 +73,7 @@ form {
 
 input {
   font-size: 0.678em; /* 0.678em * 16px = 10.848px */
+  padding-top: 0.507em;
 }
 
 #submit{
