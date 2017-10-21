@@ -32,6 +32,7 @@ h1 {
 h2 {
   font-size: 1.383em; /* 1.383em * 16px = 22.128px */
   line-height: 0.994em; /* 22px is 1 gridline | 22px / 22.128px = 0.994em */
+  padding-bottom: 0.482em;
 }
 
 footer {
@@ -76,6 +77,19 @@ input {
   padding-top: 0.507em;
 }
 
+#login, #signup {
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #918c8c;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
 #submit{
   font-size: 1.125em;
   font-weight: bold;
@@ -85,7 +99,9 @@ input {
   background-color: #A9A9A9;
 }
 
-#submit:hover{
+#submit:hover,
+#login:hover,
+#signup:hover{
   background-color: #ff5c5c;
 }
 
