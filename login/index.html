@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <html lang="en" id="login">
+
+  <!-- This source code is to create a website that will allows previously signed-up members to create topics for debate. There will be no anonymous activity as well as no slurful language -->
+  
+    <head>
+      <title>Debate.com - Login</title>
+      <meta charset="utf-8"/>
+      <link rel="stylesheet" media="screen" href="../css/screen.css"/>
+      <script type="text/javascript" src="../js/script.js"></script>
+      <link rel="icon" type="image/ico" href="../img/favicon.ico"/>
+    </head>
+    
+    <main>
+    
+      <!-- Header -->
+      <header id="header">
+        <figure>
+          <img src="../img/logo-250-250.png" alt="Logo of my website" onclick="location.href='../index.html'"/>
+          <figcaption> Debate.com </figcaption>
+        </figure>
+      </header>
+      
+      <!-- Signup form to become a member -->
+      <section class="login">
+        <form method="GET" action="#null" enctype="multipart/form-data">
+          <fieldset>
+            <p>
+              <label for="username"></label>
+              <input id="username" type="text" name="user_name" placeholder="Username">
+            </p>
+            <p>
+              <label for="mail"></label>
+              <input id="mail" type="email" name="email" placeholder="E-mail">
+            </p>
+            <p>
+                <label for="password"></label>
+              <input id="password" type="password" name="password" placeholder="Password">
+            </p>
+          </fieldset>
+          <p class="button">
+            <input type="submit" value="Let's Debate!" onclick="return Validate()" id="submit">
+          </p>
+        </form>
+      </section>
+    </main> 
+  </html>
