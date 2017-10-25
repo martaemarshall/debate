@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-  <html lang="en">
+  <html lang="en" id="home">
 
   <!-- This source code is to create a website that will allows previously signed-up members to create topics for debate. There will be no anonymous activity as well as no slurful language -->
   
     <head>
-      <title>Debate.com - The Place for Pure Debating</title>
+      <title>Debate.com - Home</title>
       <meta charset="utf-8"/>
       <link rel="stylesheet" media="screen" href="css/screen.css"/>
       <script type="text/javascript" src="js/script.js"></script>
@@ -16,14 +16,21 @@
       <!-- Header -->
       <header id="header">
         <figure>
-          <img src="img/logo.png" alt="Logo of my website"/>
+          <img src="img/logo-500-500.png" alt="Logo of my website"/>
         </figure>
         <h1>Welcome to Debate.com</h1>
         <h2>Your Place for Civil Debating</h2>
         <p class="button">
-          <input type="submit" value="Log In" id="login">
-          <input type="submit" value="Sign Up" onclick="location.href='signup/index.html'" id="signup">
+          <input type="submit" value="Log In" onclick="location.href='login/index.html'" id="blogin">
+          <input type="submit" value="Sign Up" onclick="location.href='signup/index.html'" id="bsignup">
         </p>
       </header>
-      
+    </body>
+    <!-- Footer -->
+      <footer id="footer">
+        <p>
+          Site designed by <a href="http://martaemarshall.com/">Martae Marshall</a>.
+          Source hosted on <a href="https://github.com/martaemarshall/debate">Github</a>
+        </p>
+      </footer>
   </html>
