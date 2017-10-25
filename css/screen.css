@@ -14,10 +14,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   http://www.modularscale.com/?1&em&1.067&web&text
 */
 
+/* Default styles for page */
 html {
   font-size: 1.125em; /* 18px / 16px = 1.125em */
   line-height: 1.222em; /* 22px is 1 gridline | 22px / 18px = 1.222em */
   font-family: calibri;
+  background-color: #FFF6F6;
 }
 
 header {
@@ -44,32 +46,8 @@ img {
   max-width: 100%;
 }
 
-
-/* ===== LAYOUT STYLES ===== */
-#main {
-  padding: 2.444em 4.888em 4.888em 4.888em; /* line-height * 4 = 4.888em */
-}
-
-.rules {
-  padding: 1.222em;
-}
-
-.rules
- li {
-  list-style-type: decimal;
-  padding-top: 1.222em;
-}
-
-.rules
- li:last-child {
-  padding-bottom: 1.222em;
-}
-
-form {
-  text-align: center;
-  padding: 1.222em;
-  border: 0.153em solid black; /* line-height / 8 */
-  border-radius: 0.611em; /* line-height / 2 */
+fieldset {
+  line-height: 1.5em;
 }
 
 input {
@@ -77,34 +55,97 @@ input {
   padding-top: 0.507em;
 }
 
-#login, #signup {
+figcaption {
+  font-size: 1.383em;
+}
+
+footer {
+  font-size: 0.937em; /* 0.937em * 16px = 14.992px */
+  text-align: center;
+  background-color: #918c8c;
+  padding-top: 0.734em; /* 11px is 0.5 gridline | 11px / 14.992px = 0.734em */
+  padding-bottom: 0.734em;
+}
+/* ===== LAYOUT STYLES ===== */
+
+/* Main content is on the same row */
+main {
+  display: flex;
+  flex-direction: row;
+}
+
+.rules {
+  padding: 1.222em;
+}
+
+/* Each individual rule has a number and space from the others */
+.rules
+ li {
+  list-style-type: decimal;
+  padding-top: 1.222em;
+}
+
+/*.rules
+ li:last-child {
+  padding-bottom: 1.222em;
+}*/
+
+/* Provide styles for the login and signup forms */
+.login, .signup {
+  text-align: center;
+  padding: 1.222em;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.button {
+  padding-bottom: 1em;
+}
+/* Styles for the Login and Signup buttons on HOME PAGE */
+#blogin, #bsignup, #submit {
   -webkit-border-radius: 26;
   -moz-border-radius: 26;
   border-radius: 26px;
   font-family: Arial;
+  font-weight: bold;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 1.383em;
   background: #918c8c;
-  padding: 10px 20px 10px 20px;
+  padding: 0.497em;
   border: solid #000000 2px;
   text-decoration: none;
 }
 
+/* Styles for the Submit button *
 #submit{
   font-size: 1.125em;
   font-weight: bold;
-  padding: 0.306em; /* line-height / 4 */
-  text-shadow: 0.076em 0.076em #000000; /* line-height / 8 */
+  padding: 0.306em; /* line-height / 4 *
+  text-shadow: 0.076em 0.076em #000000; /* line-height / 8 *
   color: #ffffff;
   background-color: #A9A9A9;
-}
+}*/
 
+/* Shows off pink when cursor hovers over buttons */
 #submit:hover,
-#login:hover,
-#signup:hover{
-  background-color: #ff5c5c;
+#blogin:hover,
+#bsignup:hover{
+  background-color: #FF5B5B;
 }
 
+#login main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#signup header {
+  background-color: #FF5B5B;
+}
 /* ===== STATE STYLES ===== */
 @media screen and (min-width: 0) {
   #main {
