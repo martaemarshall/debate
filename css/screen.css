@@ -102,6 +102,10 @@ a {
   font-weight: bold;
 }
 
+a:hover {
+  color: #FF5B5B;
+}
+
 .button {
   padding-bottom: 1em;
 }
@@ -113,7 +117,7 @@ a {
   font-family: Arial;
   font-weight: bold;
   color: #ffffff;
-  font-size: 1.383em;
+  font-size: 1em;
   background: #918c8c;
   padding: 0.497em;
   border: solid #000000 2px;
@@ -148,30 +152,62 @@ a {
 }
 /* ===== STATE STYLES ===== */
 @media screen and (min-width: 0) {
-  #main {
-    font-size: 1em; /* 1em * 16px = 16px */
-    line-height: 1.375em; /* 22px is 1 gridline | 22px / 16px = 1.375em */
-    padding-left: 1.375em;
-    padding-right: 1.375em;
+  html{
+    font-size: 1.296em; /* 20.736 */
+    line-height: 1.061em; /* 22px is 1 gridline | 22px / 20.736px = 1.061em */
   }
   
-  #submit {
-    font-size: 1em;
+  h1 {
+    font-size: 1.68em; /* 26.88px */
+    line-height: 1.637em; /* 44px is 2 gridlines | 44px / 26.88px = 1.637em */
   }
+  
+  h2 {
+    font-size: 1.215em; /* 19.44px */
+    line-height: 1.132em; /* 22px is 1 gridline | 22px / 19.44px = 1.132em */
+    padding-bottom: 0.482em;
+  }
+
+  #main {
+    padding-left: 1.061em;
+    padding-right: 1.061em;
+    flex-direction: column;
+  }
+
 }
 @media screen and (min-width: 570px) {
+  html {
+    font-size: 1.383em; /* 22.128 */
+    line-height: 0.994em; /* 22px is 1 gridlines | 22px / 22.128px = 0.994em */
+  }
+  
+  h1 {
+    font-size: 1.913em; /* 30.608 */
+    line-height: 1.438em; /* 44px is 2 gridlines | 44px / 30.608px = 1.438em */
+  }
+
   #main {
-    font-size: 1.575em; /* 1.575em * 16px = 18.208px */
-    line-height: 1.208em; /* 22px is 1 gridline | 22px / 18.208px = 1.375 */
-    padding-left: 1.208em;
-    padding-right: 1.208em;
+  padding-left: 0.994em;
+  padding-right: 0.994em;
+  flex-direction: row;
   }
 }
 @media screen and (min-width: 892px) {
+  h1 {
+    font-size: 2.822em; /* 2.822em * 16px = 45.152px */
+    line-height: 1.462em; /* 66px is 3 gridlines | 66px / 45.152px = 1.462em */
+  }
+  
+  h2 {
+    font-size: 1.575em; /* 25.2 */
+    line-height: 0.873em; /* 22px is 1 gridline | 22px / 25.2px = 0.873em */
+    padding-bottom: 0.437em;
+  }
+  
   #main {
-    font-size: 1.913em; /* 1.913em * 16px = 30.608px */
-    line-height: 1.438em; /* 44px is 2 gridlines | 44px / 30.608px = 1.438em */
-    padding-left: 1.438em;
-    padding-right: 1.438em;
+    font-size: 1.476em; /* 23.616px */
+    line-height: 0.932em; /* 22px is 1 gridlines | 22px / 23.616px = 0.932em */
+    padding-left: 0.932em;
+    padding-right: 0.932em;
   }
 }
