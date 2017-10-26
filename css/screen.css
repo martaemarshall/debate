@@ -194,8 +194,8 @@ a:hover {
 }
 @media screen and (min-width: 892px) {
   h1 {
-    font-size: 2.822em; /* 2.822em * 16px = 45.152px */
-    line-height: 1.462em; /* 66px is 3 gridlines | 66px / 45.152px = 1.462em */
+    font-size: 2.479em; /* 2.822em * 16px = 45.152px 39.664*/
+    line-height: 1.109em; /* 66px is 3 gridlines | 66px / 45.152px = 1.462em */
   }
   
   h2 {
